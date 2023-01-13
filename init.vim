@@ -19,6 +19,7 @@ Plug 'davidhalter/jedi-vim'                     " python linting
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " intellisense 
 
 " some themes that fit quite ok
+Plug 'EdenEast/nightfox.nvim'
 Plug 'hiroakis/cyberspace.vim'
 "Plug 'nicknikolov/dark-matter.vim'
 "Plug 'rafalbromirski/vim-aurora'
@@ -107,7 +108,8 @@ set background=dark " needed for PaperColor scheme
 "colorscheme pop-punk
 "colorscheme hackthebox
 "colorscheme moonfly
-colorscheme cyberspace
+"colorscheme cyberspace
+colorscheme carbonfox
 "colorscheme darkmatter
 "colorscheme northernlights
 "colorscheme codedark
