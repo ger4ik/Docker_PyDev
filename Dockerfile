@@ -1,17 +1,9 @@
 FROM ubuntu:latest
 
-RUN apt update -y
-RUN apt install python3 -y
-RUN apt install pip -y
-RUN apt install curl -y
-RUN apt install git  -y
-RUN apt install zsh -y
-RUN apt install neovim -y
-RUN apt install wget -y
-RUN apt install tmux -y 
+RUN apt update -y && apt upgrade -y
+RUN apt install -y python3 pip curl git zsh neovim wget tmux
 
-RUN pip3 install autopep8
-RUN pip3 install flake8
+RUN pip3 install autopep8 flake8
 
 # node js >= 14
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
